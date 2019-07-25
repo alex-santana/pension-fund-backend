@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Alex.Developer.Pension.Funds.Shared.ValueObjects;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Alex.Developer.Pension.Funds.Domain.ValueObjects
 {
-    public class Name
+    public class Name : ValueObject
     {
         public Name(string nameField, string abreviation, string description)
         {

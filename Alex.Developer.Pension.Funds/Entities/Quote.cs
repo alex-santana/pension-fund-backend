@@ -7,11 +7,14 @@ using System.Text;
 
 namespace Alex.Developer.Pension.Funds.Domain.Entities
 {
-    public class Sponsor : Entity
+    public class Quote : Entity
     {
         public Name Name { get; set; }
-        public IReadOnlyCollection<Branch> Branchs { get { return _branchs.ToArray(); } }
-        private IList<Branch> _branchs;
+        public Date Date { get; set; }
+        private IList<QuoteValue> _quoteValue;
+        public IReadOnlyCollection<QuoteValue> QuoteValues { get { return _quoteValue.ToArray(); } }
+
+
 
     }
 }
