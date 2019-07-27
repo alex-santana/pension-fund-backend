@@ -9,6 +9,12 @@ namespace Alex.Developer.Pension.Funds.Domain.Entities
 {
     public class Adhesion :Entity
     {
+        public string CompanyId { get; private set; }
+        public string SponsorId { get; private set; }
+        public string PlanId { get; private set; }
+        public string BranchId { get; private set; }
+        public string EmployeeId { get; private set; }
+
         public DateTime Initial { get; private set; }
         public DateTime Admission { get; private set; }
         public DateTime Suspension { get; private set; }

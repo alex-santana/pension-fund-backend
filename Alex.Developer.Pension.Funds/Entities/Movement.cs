@@ -7,11 +7,12 @@ namespace Alex.Developer.Pension.Funds.Domain.Entities
 {
     public class Movement : Entity
     {
-        public DateTime MovementDate { get; set; }
-        public decimal Value { get; set; }
-        public char Signal { get; set; }
-        public string YearMonth { get; set; }
-        public string Responsable { get; set; }
+        public string AdhesionId { get; private set; }
+        public DateTime MovementDate { get; private set; }
+        public decimal Value { get; private set; }
+        public char Signal { get; private set; }
+        public string YearMonth { get; private set; }
+        
 
     }
 }

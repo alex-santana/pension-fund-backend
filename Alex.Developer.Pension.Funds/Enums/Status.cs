@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Alex.Developer.Pension.Funds.Domain.Enums
 {
-    enum Status
+    public enum Status
     {
         Active = 1,
         SelfSponsored = 2,

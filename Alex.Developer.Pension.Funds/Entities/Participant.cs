@@ -8,10 +8,10 @@ namespace Alex.Developer.Pension.Funds.Domain.Entities
 {
     public class Participant : Entity
     {
-        public Name Name { get; set; }
-        public string CPF { get; set; }
-        public DateTime Birth { get; set; }
-        public string Email { get; set; }
+        public Name Name { get; private set; }
+        public Document CPF { get; private set; }
+        public DateTime Birth { get; private set; }
+        public string Email { get; private set; }
         public BankAccount BankAccount { get; private set; }
         public Date Date { get; private set; }
 

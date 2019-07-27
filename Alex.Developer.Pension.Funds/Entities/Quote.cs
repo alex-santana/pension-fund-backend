@@ -9,8 +9,9 @@ namespace Alex.Developer.Pension.Funds.Domain.Entities
 {
     public class Quote : Entity
     {
-        public Name Name { get; set; }
-        public Date Date { get; set; }
+        public Name Name { get; private set; }
+        public Date Date { get; private set; }
+        public bool Active { get; private set; }
         private IList<QuoteValue> _quoteValue;
         public IReadOnlyCollection<QuoteValue> QuoteValues { get { return _quoteValue.ToArray(); } }
 

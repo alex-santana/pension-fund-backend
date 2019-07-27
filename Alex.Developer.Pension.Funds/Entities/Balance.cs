@@ -7,7 +7,7 @@ namespace Alex.Developer.Pension.Funds.Domain.Entities
 {
     public class Balance : Entity
     {
-        public decimal QuoteTotal { get; set; }
-        public decimal GuaranteeQuote { get; set; }
+        public decimal QuoteTotal { get; private set; }
+        public decimal GuaranteeQuote { get; private set; }
     }
 }
