@@ -13,6 +13,8 @@ namespace Alex.Developer.Pension.Funds.Domain.Entities
         public Date Date { get; private set; }
         public bool Active { get; private set; }
 
+        //TODO: demais Campos 
+
         public IReadOnlyCollection<Sponsor> Sponsors { get { return _sponsors.ToArray(); } }
         private IList<Sponsor> _sponsors;
 
