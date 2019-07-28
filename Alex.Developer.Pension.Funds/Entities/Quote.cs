@@ -9,6 +9,16 @@ namespace Alex.Developer.Pension.Funds.Domain.Entities
 {
     public class Quote : Entity
     {
+
+        public Quote(Name name, Date date, bool active)
+        {
+            Name = name;
+            Date = date;
+            Active = active;
+            _quoteValue = new List<QuoteValue>();
+
+            //TODO: validations
+        }
         public Name Name { get; private set; }
         public Date Date { get; private set; }
         public bool Active { get; private set; }
