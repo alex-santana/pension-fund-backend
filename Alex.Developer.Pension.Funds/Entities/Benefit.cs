@@ -23,5 +23,7 @@ namespace Alex.Developer.Pension.Funds.Domain.Entities
         public int PlanTime { get; private set; }
         public int ServiceTime { get; private set; }
 
+        public Plan Plan { get; private set; }
+
     }
 }

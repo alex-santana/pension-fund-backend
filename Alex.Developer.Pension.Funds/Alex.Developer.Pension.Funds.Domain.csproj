@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Alex.Developer.Pension.Funds.Shared\Alex.Developer.Pension.Funds.Shared.csproj" />
   </ItemGroup>
 

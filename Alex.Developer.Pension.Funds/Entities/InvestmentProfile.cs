@@ -18,5 +18,7 @@ namespace Alex.Developer.Pension.Funds.Domain.Entities
         public Name Name{ get; private set; }
         public int MaxAge { get; private set; }
         public bool Active { get; private set; }
+
+        public Plan Plan { get; private set; }
     }
 }

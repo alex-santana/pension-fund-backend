@@ -28,5 +28,7 @@ namespace Alex.Developer.Pension.Funds.Domain.Entities
         public decimal PercentMinContribuition { get; private set; }
         public decimal PercentMaxContribuition { get; private set; }
         public decimal PercentIncrementContribuition { get; private set; }
+
+        public Plan Plan { get; private set; }
     }
 }

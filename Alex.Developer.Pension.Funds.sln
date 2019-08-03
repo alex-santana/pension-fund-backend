@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alex.Developer.Pension.Funds.Domain", "Alex.Developer.Pension.Funds\Alex.Developer.Pension.Funds.Domain.csproj", "{49DE0AB2-616F-4106-98A7-9A5E34C329A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alex.Developer.Pension.Funds.Shared", "Alex.Developer.Pension.Funds.Shared\Alex.Developer.Pension.Funds.Shared.csproj", "{664DFDB7-8ED2-4FF7-A445-05990DF87B29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alex.Developer.Pension.Funds.Shared", "Alex.Developer.Pension.Funds.Shared\Alex.Developer.Pension.Funds.Shared.csproj", "{664DFDB7-8ED2-4FF7-A445-05990DF87B29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alex.Developer.Pension.Funds.Infra", "Alex.Developer.Pension.Funds.Infra\Alex.Developer.Pension.Funds.Infra.csproj", "{D6E76A4A-3249-4603-AB94-6B9A66880A36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{664DFDB7-8ED2-4FF7-A445-05990DF87B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{664DFDB7-8ED2-4FF7-A445-05990DF87B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{664DFDB7-8ED2-4FF7-A445-05990DF87B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6E76A4A-3249-4603-AB94-6B9A66880A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E76A4A-3249-4603-AB94-6B9A66880A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E76A4A-3249-4603-AB94-6B9A66880A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E76A4A-3249-4603-AB94-6B9A66880A36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -16,5 +16,6 @@ namespace Alex.Developer.Pension.Funds.Domain.Entities
         public Date Date { get; private set; }
 
         public Adhesion Adhesion { get; private set; }
+
     }
 }

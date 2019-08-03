@@ -21,5 +21,7 @@ namespace Alex.Developer.Pension.Funds.Domain.Entities
         public decimal Value { get; private set; }
         public string anomes { get; private set; }
         public Date  Date { get; private set; }
+
+        public Plan Plan { get; private set; }
     }
 }
