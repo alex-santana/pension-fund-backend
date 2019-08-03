@@ -29,6 +29,8 @@ namespace Alex.Developer.Pension.Funds.Domain.Entities
 
         public Plan Plan { get; private set; }
 
+        public Employee Employee { get; private set; }
+
         //TODO: demais campos 
 
 
