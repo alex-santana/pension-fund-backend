@@ -4,4 +4,18 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Scripts\procedures\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.6" />
+    <PackageReference Include="microsoft.NETCore.Platforms" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Alex.Developer.Pension.Funds.Shared\Alex.Developer.Pension.Funds.Shared.csproj" />
+    <ProjectReference Include="..\Alex.Developer.Pension.Funds\Alex.Developer.Pension.Funds.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

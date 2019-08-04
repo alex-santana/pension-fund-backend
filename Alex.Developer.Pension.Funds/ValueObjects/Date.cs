@@ -14,6 +14,6 @@ namespace Alex.Developer.Pension.Funds.Domain.ValueObjects
         }
 
         public DateTime Inclusion { get; private set; }
-        public DateTime Alteracion { get; private set; }
+        public DateTime? Alteracion { get; private set; }
     }
 }

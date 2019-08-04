@@ -15,7 +15,7 @@ namespace Alex.Developer.Pension.Funds.Domain.Entities
         public EPlanType TypePlan { get; private set; }
         public bool Active { get; private set; }
         public long Cnpb { get; private set; }
-        public DateTime Effecive { get; private set; }
+        public DateTime Effective { get; private set; }
         public int SalaryAdjustmentMonth { get; private set; }
         public int AmountAnnualContributions { get; private set; }
         public int AmountAnnualBenefits { get; private set; }
